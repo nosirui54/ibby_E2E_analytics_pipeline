@@ -57,8 +57,7 @@ Ensure that your dbt version matches the major/minor version of your dbt adapter
 ```sh
 source .\venv/bin/activate
 pip install --ignore-installed -r requirements.txt
-dbt
- deps --project-dir ibby_dbt_analytics
+dbt deps --project-dir ibby_dbt_analytics
 ```
 If issues persist, you may need to recreate the virtual environment:
 
